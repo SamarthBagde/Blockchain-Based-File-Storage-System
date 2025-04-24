@@ -1,0 +1,126 @@
+/* Add or update these styles in your CSS file */
+
+.blockchain-data {
+  padding: 20px 30px;
+}
+
+.file-cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns of equal width */
+  gap: 20px; /* Space between grid items (cards) */
+  justify-content: center; /* Center the grid in the container */
+}
+
+.file-card {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.file-card strong {
+  font-size: 18px;
+  color: #333;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.file-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/*  */
+
+/* PasswordModal.css */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 300px;
+}
+
+.modal-box input[type="password"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.modal-box button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modal-box input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.model-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.init-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.init-msg p {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.section-info {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-info p {
+  font-size: 1rem;
+  color: #666;
+}
