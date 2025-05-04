@@ -137,7 +137,7 @@ export default function AllMyFiles() {
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-box">
-            <h3>Enter your secret key to br download file</h3>
+            <h3>Enter your secret key to download file</h3>
             <input
               type="password"
               onChange={(e) => setPassword(e.target.value)}

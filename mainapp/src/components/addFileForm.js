@@ -26,6 +26,12 @@ export default function AddFileForm() {
       return;
     }
 
+    if (password.trim().length < 8) {
+      setError("Password must be at least 8 characters long.");
+      setLoading(false);
+      return;
+    }
+
     const formData = new FormData();
     formData.append("file", file);
     formData.append("password", password);
